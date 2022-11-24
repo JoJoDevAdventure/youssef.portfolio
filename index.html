@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Bouhlel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1299ecf403.js" crossorigin="anonymous"></script>
+</head>
+<Body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>iOS Developer & UI/UX Designer</p>
+                <h1>Hi, I'm <span>Youssef</span> <br> From Tunisia.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -- -- -- -- -- -- -- About -- -- -- -- -- -- -- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey👋🏼, I'm Youssef also called Joseph and I'm passionate of IT since young boy. <br>
+                        I have a good communications skills and a solution oriented mindset. <br>
+                        Addicted to problem solving and always using software to improve my daily productivity. <br>
+                        I love learning new languages, currently speaking Arabic 🇸🇦, French 🇫🇷, English 🇬🇧, Russian 🇷🇺. <br>
+                        I want to be the extreme example of what a working man can achieve.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Product Designer</span><br>
+                                    - UI/UX Design for websites and mobile apps. <br>
+                                    - Motion Design. <br>
+                                    - Branding.
+                                </li>
+                                <li>
+                                    <span>iOS Developer</span><br>
+                                    - Build apps for iOS & iPadOS. <br>
+                                    - Use Agile SCRUM method. <br>
+                                    - Use Git / GitHub / GitLab.
+                                </li>
+                                <li>
+                                    <span>Cloud practitioner</span><br>
+                                    Certified AWS Cloud practitioner.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2021 - Current </span><br>
+                                    Freelance iOS Developer at Upwork.
+                                </li>
+                                <li>
+                                    <span>2021 - Current </span><br>
+                                    Freelance Product designer & Team lead.
+                                </li>
+                                <li>
+                                    <span>2020 - 2021</span><br>
+                                    Freelance designer at Fiverr.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2024</span><br>
+                                    Computer Science Bachlor Degree.
+                                </li>
+                                <li>
+                                    <span>2020</span><br>
+                                    Math & Science High School Degree.
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -- -- -- -- -- -- -- Services -- -- -- -- -- -- -- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>iOS Developpement</h2>
+                    <p> - Work experience as an app developer. <br>
+                        - Experience in Objective-C, Swift, Xcode, and Cocoa Touch. <br>
+                        - Knowledge of iOS back-end services. <br>
+                        - Proficient in iOS Frameworks such as Core Data, Core Graphics, and Core Animation. <br>
+                        - Knowledge of Apple's design principles and application interface guidelines. <br>
+                        - Understanding of the mobile development life cycle. <br>
+                        - Knowledge of code versioning tools, like Git. <br>
+                        - Familiarity with C-based libraries. <br>
+                        - Knowledge of push notifications, APIs, and cloud messaging. <br>
+                        - Experience with continuous integration. <br>
+                        - Familiarity with general mobile landscape, architectures, and trends.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>- Wireframe: layout of visual design used to prioritize page elements based on user needs <br>
+                        - Prototype: A sample or simulation of a final product used to test and gather feedback. High-fidelity prototypes computer-based and allow for mouse and keyboard interaction. <br>
+                        - Mockup: A realistic visual model of what a final webpage or application will look like. <br>
+                        - User flow: A diagram that maps out each step a user takes when using a product or service. <br>
+                        - Tools: Figma, AdobeXD, Photoshop, Illustrator. <br>
+                        - Application development knowledge : basic understanding of application development, including languages like JavaScript, CSS, and HTML. <br>
+                        - Communication and presentation. <br>
+                        - Prioritization and time management.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-cloud"></i>
+                    <h2>Cloud practitioner</h2>
+                    <p>- Supervising the architecting and deployment of applications within AWS platforms.<br>
+                        - Developing plans for the adoption of cloud solutions.<br>
+                        - Management and monitoring of cloud platforms. <br>
+                        - Designing and building applications on the cloud. <br>
+                        - Knowledge of Java, Python. <br>
+                        - Understanding of data security and compliance laws. <br>
+                        - Networking and security skills. <br>
+                        - Working knowledge of tools used in the AWS environment, such as Ansible, Chef, Docker, Jenkins. <br>
+                        - Handling complex project management using tools like Jira.
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- -- -- -- -- -- -- Portfolio -- -- -- -- -- -- -- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-tab-titles">
+                <p class="work-tab-links active-link" onclick="onWork('ios')">iOS Developpement</p>
+                <p class="work-tab-links" onclick="onWork('design')">UI/UX Design</p>
+            </div>
+            <div class="work-list active-list" id="ios">
+                <div class="work">
+                    <img src="images/LetsSkate.gif">
+                    <div class="layer">
+                        <h3>Let's Skate</h3>
+                        <p>Let's Skate is a social media made for skaters, a place where they can share their stories, posts, communicate with messages, you can create an account on let's skate and login anytime you want, your data is safe! <br>
+                            made using Firebase, Auth, Firestore, Coredata and many other 3rd parties.
+                        </p>
+                        <a href="https://github.com/JoJoDevAdventure/Let-s-Skate"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/icookpad.gif">
+                    <div class="layer">
+                        <h3>iCookPad</h3>
+                        <p>iCookPad is a cooking recipes app where you can find the a daily cheif choice, random propositions for salty and sweet food and a custom search depending on preferences.
+                        </p>
+                        <a href="https://github.com/JoJoDevAdventure/iCookPad"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/streaming.gif">
+                    <div class="layer">
+                        <h3>Streaming App</h3>
+                        <p>Streaming app where you can watch, Search and download movies, series, TV shows...
+                        </p>
+                        <a href="https://github.com/JoJoDevAdventure/Netflix-Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list" id="design">
+                <div class="work">
+                    <img src="images/cryptoMarket.png">
+                    <div class="layer">
+                        <h3>CryptoMarket.</h3>
+                        <p>Modern Design for a Crypto Market, NFT's & Crypto currency. <br>
+                            available for iOS and iPad OS, Desktop version comming soon.
+                        </p>
+                        <a href="https://www.figma.com/file/OtTYhZcSQq4R2i1n0Yug4O/Crypto-Market?node-id=21%3A86&viewport=271%2C402%2C0.08"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/remote.png">
+                    <div class="layer">
+                        <h3>Custom remote website.</h3>
+                        <p>The perfect website to buy and get delivered with the gaming remote that you desire. unique design and a better user experience.
+                        </p>
+                        <a href="https://www.figma.com/file/yi1lqFHFj0soAWLeZrHGJc/Controller-shop-Beta-3?node-id=63%3A6930&viewport=4266%2C544%2C0.13"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/estate.png">
+                    <div class="layer">
+                        <h3>E-state.</h3>
+                        <p>Design for real estate and trip planning, modern white style with prototype and animated hover effects for desktop.
+                        </p>
+                        <a href="https://www.figma.com/file/anzu6Wb4mE0uDlHVu92HKj/E-state?node-id=185%3A838&viewport=2403%2C-2066%2C0.19"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/JoJoDevAdventure?tab=repositories&q=&type=&language=swift&sort=" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> youssef.b.mac@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +216 53 291 225</p>
+                    <div class="social-icons">
+                        <a href="">  <i class="fa-brands fa-linkedin"></i> </a>
+                        <a href="">  <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="">  <i class="fa-brands fa-behance"></i></a>
+                        <a href="">  <i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    
+        function onWork(work) {
+            var tablinks = document.getElementsByClassName("work-tab-links");
+            var workContents = document.getElementsByClassName("work-list");
+    
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (workContent of workContents) {
+                workContent.classList.remove("active-list");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(work).classList.add("active-list");
+        }   
+    
+    </script>
+    
+    <script>
+    
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+    
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxJxdpLM8sAZkz07feGTBjNHZhalrJ9QyHnkRwboFoYi577VdRWIdn_i0RPLYVYhfkeDQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(() => {
+                    msg.innerHTML = ""
+                }, 5000);
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</Body>
+
+</html>
