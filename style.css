@@ -246,7 +246,6 @@ nav ul li a:hover::after {
 }
 
 .work-list {
-    display: none;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin: 50px auto;
@@ -255,6 +254,7 @@ nav ul li a:hover::after {
 
 .work-list.active-list {
     display: grid;
+    grid-template-columns: repeat(3, 1fr); 
 }
 
 .work{
@@ -423,6 +423,11 @@ nav .fas {
         justify-content: space-between;
     }
 
+    .work-list.active-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    
     .work-tab-links {
         font-size: 16px;
         width: 100%;
@@ -461,6 +466,11 @@ nav .fas {
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+
+    .work-list.active-list {
+        display: grid;
+        grid-template-columns: auto; 
     }
 }
 
