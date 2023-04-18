@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1299ecf403.js" crossorigin="anonymous"></script>
 </head>
+
 <Body>
     <div id="header">
         <div class="container">
@@ -18,6 +20,7 @@
                     <li><a href="#about" onclick="closemenu()">About</a></li>
                     <li><a href="#services" onclick="closemenu()">Services</a></li>
                     <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#testemonial" onclick="closemenu()">Testimonials</a></li>
                     <li><a href="#contact" onclick="closemenu()">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
@@ -42,74 +45,78 @@
                     <h1 class="sub-title">About Me</h1>
                     <p>Hey👋🏼, I'm Youssef passionate of IT & Buisness since young boy. <br>
                         I have a good communications skills and a solution oriented mindset. <br>
-                        I am a mature and confident person with management experience, team leadership skills and the ability to multitask. <br>
-                        I am a reliable, trustworthy and flexible individual who can learn new skills easily and execute them swiftly. <br>
-                        I am currently speaking Arabic 🇸🇦, French 🇫🇷, English 🇬🇧, Russian 🇷🇺 and learning Spanish 🇪🇸. <br>
-                        𝙸 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚋𝚎 𝚝𝚑𝚎 𝚎𝚡𝚝𝚛𝚎𝚖𝚎 𝚎𝚡𝚊𝚖𝚙𝚕𝚎 𝚘𝚏 𝚠𝚑𝚊𝚝 𝚊 𝚑𝚊𝚛𝚍 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚖𝚊𝚗 𝚌𝚊𝚗 𝚊𝚌𝚑𝚒𝚎𝚟𝚎.</p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li>
-                                    <span>Product Designer</span><br>
-                                    • User Research <br>
-                                    • UX Design <br>
-                                    • UI Design <br>
-                                    • Prototyping <br>
-                                    • Design Thinking <br>
-                                    • Collaboration <br>
-                                    • Communication
-                                </li>
-                                <li>
-                                    <span>iOS Developer</span><br>
-                                    • Proficiency in Swift Programming Language <br>
-                                    • Strong knowledge of iOS SDK <br>
-                                    • User Interface (UI) and User Experience (UX) Design <br>
-                                    • Debugging and Troubleshooting skills <br>
-                                    • Object-Oriented Programming (OOP) <br>
-                                    • Effective communication skills
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li>
-                                    <span>2016 - 2018</span><br>
-                                    Youtube Video Editor.
-                                </li>
-                                <li>
-                                    <span>2018 - 2019</span><br>
-                                    Graphic Designer for e-sport teams.
-                                </li>
-                                <li>
-                                    <span>2019 - 2020</span><br>
-                                    Freelance UI/UX Desinger.
-                                </li>
-                                <li>
-                                    <span>2020 - Current </span><br>
-                                    Freelance iOS Developer.
-                                </li>
-                                <li>
-                                    <span>2021 - Current </span><br>
-                                    Freelance Product designer & Team lead.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li>
-                                    <span>2024</span><br>
-                                    Computer Science Bachlor Degree.
-                                </li>
-                                <li>
-                                    <span>2020</span><br>
-                                    Math & Science High School Degree.
-                                </li>
-                            </ul>
-                        </div>
+                        I am a mature and confident person with management experience, team leadership skills and the
+                        ability to multitask. <br>
+                        I am a reliable, trustworthy and flexible individual who can learn new skills easily and execute
+                        them swiftly. <br>
+                        I am currently speaking Arabic 🇸🇦, French 🇫🇷, English 🇬🇧, Russian 🇷🇺 and learning
+                        Spanish 🇪🇸. <br>
+                        𝙸 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚋𝚎 𝚝𝚑𝚎 𝚎𝚡𝚝𝚛𝚎𝚖𝚎 𝚎𝚡𝚊𝚖𝚙𝚕𝚎 𝚘𝚏 𝚠𝚑𝚊𝚝 𝚊 𝚑𝚊𝚛𝚍
+                        𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚖𝚊𝚗 𝚌𝚊𝚗 𝚊𝚌𝚑𝚒𝚎𝚟𝚎.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Product Designer</span><br>
+                                • User Research <br>
+                                • UX Design <br>
+                                • UI Design <br>
+                                • Prototyping <br>
+                                • Design Thinking <br>
+                                • Collaboration <br>
+                                • Communication
+                            </li>
+                            <li>
+                                <span>iOS Developer</span><br>
+                                • Proficiency in Swift Programming Language <br>
+                                • Strong knowledge of iOS SDK <br>
+                                • User Interface (UI) and User Experience (UX) Design <br>
+                                • Debugging and Troubleshooting skills <br>
+                                • Object-Oriented Programming (OOP) <br>
+                                • Effective communication skills
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2016 - 2018</span><br>
+                                Youtube Video Editor.
+                            </li>
+                            <li>
+                                <span>2018 - 2019</span><br>
+                                Graphic Designer for e-sport teams.
+                            </li>
+                            <li>
+                                <span>2019 - 2020</span><br>
+                                Freelance UI/UX Desinger.
+                            </li>
+                            <li>
+                                <span>2020 - Current </span><br>
+                                Freelance iOS Developer.
+                            </li>
+                            <li>
+                                <span>2021 - Current </span><br>
+                                Freelance Product designer & Team lead.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2024</span><br>
+                                Computer Science Bachlor Degree.
+                            </li>
+                            <li>
+                                <span>2020</span><br>
+                                Math & Science High School Degree.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,11 +147,14 @@
                     <i class="fa-solid fa-crop"></i>
                     <h2>Product Design</h2>
                     <p>- Wireframe: layout of visual design used to prioritize page elements based on user needs <br>
-                        - Prototype: A sample or simulation of a final product used to test and gather feedback. High-fidelity prototypes computer-based and allow for mouse and keyboard interaction. <br>
+                        - Prototype: A sample or simulation of a final product used to test and gather feedback.
+                        High-fidelity prototypes computer-based and allow for mouse and keyboard interaction. <br>
                         - Mockup: A realistic visual model of what a final webpage or application will look like. <br>
-                        - User flow: A diagram that maps out each step a user takes when using a product or service. <br>
+                        - User flow: A diagram that maps out each step a user takes when using a product or service.
+                        <br>
                         - Tools: Figma, AdobeXD, Photoshop, Illustrator. <br>
-                        - Application development knowledge : basic understanding of application development, including languages like JavaScript, CSS, and HTML. <br>
+                        - Application development knowledge : basic understanding of application development, including
+                        languages like JavaScript, CSS, and HTML. <br>
                 </div>
             </div>
         </div>
@@ -162,19 +172,24 @@
                     <img src="images/LetsSkate.gif">
                     <div class="layer">
                         <h3>Let's Skate</h3>
-                        <p>Let's Skate is a social media made for skaters, a place where they can share their stories, posts, communicate with messages, you can create an account on let's skate and login anytime you want, your data is safe! <br>
+                        <p>Let's Skate is a social media made for skaters, a place where they can share their stories,
+                            posts, communicate with messages, you can create an account on let's skate and login anytime
+                            you want, your data is safe! <br>
                             made using Firebase, Auth, Firestore, Coredata and many other 3rd parties.
                         </p>
-                        <a href="https://github.com/JoJoDevAdventure/Let-s-Skate"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure/Let-s-Skate"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/icookpad.gif">
                     <div class="layer">
                         <h3>iCookPad</h3>
-                        <p>iCookPad is a cooking recipes app where you can find the a daily cheif choice, random propositions for salty and sweet food and a custom search depending on preferences.
+                        <p>iCookPad is a cooking recipes app where you can find the a daily cheif choice, random
+                            propositions for salty and sweet food and a custom search depending on preferences.
                         </p>
-                        <a href="https://github.com/JoJoDevAdventure/iCookPad"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure/iCookPad"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -183,25 +198,32 @@
                         <h3>Streaming App</h3>
                         <p>Streaming app where you can watch, Search and download movies, series, TV shows...
                         </p>
-                        <a href="https://github.com/JoJoDevAdventure/Netflix-Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure/Netflix-Clone"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/RPSMultiplayer.gif">
                     <div class="layer">
                         <h3>RPS Multiplayer</h3>
-                        <p>RPS is a Multiplayer Rock Paper Scissors game, Modern UI/UX with ability to chose one of multiple avatars, play vs friends online, Built with UIKit, CoreAnimation, Firebase, Lottie Animation.
+                        <p>RPS is a Multiplayer Rock Paper Scissors game, Modern UI/UX with ability to chose one of
+                            multiple avatars, play vs friends online, Built with UIKit, CoreAnimation, Firebase, Lottie
+                            Animation.
                         </p>
-                        <a href="https://github.com/JoJoDevAdventure/RPS-Multiplayer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure/RPS-Multiplayer"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/MVIH.gif">
                     <div class="layer">
                         <h3>Marvel Vs. VIH</h3>
-                        <p>This app was made in one night for a challenge "Dev Night", The goal is to find a small logo hidden in a large image, you have hints to help you and a ranking system. <br> Made using UIKit, Core graphics, Core Animation.
+                        <p>This app was made in one night for a challenge "Dev Night", The goal is to find a small logo
+                            hidden in a large image, you have hints to help you and a ranking system. <br> Made using
+                            UIKit, Core graphics, Core Animation.
                         </p>
-                        <a href="https://github.com/JoJoDevAdventure/Marvel-vs-VIH"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure/Marvel-vs-VIH"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -210,7 +232,8 @@
                         <h3>Slots game</h3>
                         <p>Slots game made with Swift UI with multiple animations.
                         </p>
-                        <a href="https://github.com/JoJoDevAdventure/SlotsGame"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure/SlotsGame"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -222,43 +245,57 @@
                         <p>Modern Design for a Crypto Market, NFT's & Crypto currency. <br>
                             available for iOS and iPad OS, Desktop version comming soon.
                         </p>
-                        <a href="https://www.figma.com/file/OtTYhZcSQq4R2i1n0Yug4O/Crypto-Market?node-id=21%3A86&viewport=271%2C402%2C0.08"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a
+                            href="https://www.figma.com/file/OtTYhZcSQq4R2i1n0Yug4O/Crypto-Market?node-id=21%3A86&viewport=271%2C402%2C0.08"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/remote.png">
                     <div class="layer">
                         <h3>Custom remote website.</h3>
-                        <p>The perfect website to buy and get delivered with the gaming remote that you desire. unique design and a better user experience.
+                        <p>The perfect website to buy and get delivered with the gaming remote that you desire. unique
+                            design and a better user experience.
                         </p>
-                        <a href="https://www.figma.com/file/yi1lqFHFj0soAWLeZrHGJc/Controller-shop-Beta-3?node-id=63%3A6930&viewport=4266%2C544%2C0.13"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a
+                            href="https://www.figma.com/file/yi1lqFHFj0soAWLeZrHGJc/Controller-shop-Beta-3?node-id=63%3A6930&viewport=4266%2C544%2C0.13"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/estate.png">
                     <div class="layer">
                         <h3>E-state.</h3>
-                        <p>Design for real estate and trip planning, modern white style with prototype and animated hover effects for desktop.
+                        <p>Design for real estate and trip planning, modern white style with prototype and animated
+                            hover effects for desktop.
                         </p>
-                        <a href="https://www.figma.com/file/anzu6Wb4mE0uDlHVu92HKj/E-state?node-id=185%3A838&viewport=2403%2C-2066%2C0.19"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a
+                            href="https://www.figma.com/file/anzu6Wb4mE0uDlHVu92HKj/E-state?node-id=185%3A838&viewport=2403%2C-2066%2C0.19"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/AFA.jpg">
                     <div class="layer">
                         <h3>Air Force Artisans</h3>
-                        <p>Design for shoes e-commerce website, modern dark style with prototype and animated hover effects for desktop.
+                        <p>Design for shoes e-commerce website, modern dark style with prototype and animated hover
+                            effects for desktop.
                         </p>
-                        <a href="https://www.figma.com/file/bPN2xSCKaU4AsDOrmDLCqo/Air-Force-Artisans?node-id=36-80&t=cMfvhaEeH6GrXVDb-11"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a
+                            href="https://www.figma.com/file/bPN2xSCKaU4AsDOrmDLCqo/Air-Force-Artisans?node-id=36-80&t=cMfvhaEeH6GrXVDb-11"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/RPSDesign.jpg">
                     <div class="layer">
                         <h3>RPS Multiplayer.</h3>
-                        <p>Mobile game design for a rock, paper, scissors game for iOS, Modern and childish design with multiple designed skins.
+                        <p>Mobile game design for a rock, paper, scissors game for iOS, Modern and childish design with
+                            multiple designed skins.
                         </p>
-                        <a href="https://www.figma.com/file/Vq6osRrEemkROeWGVcpVhE/RPS-Multiplayer?node-id=0-1&t=u3buajemaEmCrasg-11"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a
+                            href="https://www.figma.com/file/Vq6osRrEemkROeWGVcpVhE/RPS-Multiplayer?node-id=0-1&t=u3buajemaEmCrasg-11"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -270,11 +307,102 @@
                         <a href="https://blonk.co"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
+                <div class="work">
+                    <img src="images/kikilogo.jpg">
+                    <div class="layer">
+                        <h3>Kiki Logo</h3>
+                        <p>Logo made from scratch with adobe Illustrator and photoshop for a client's company.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/high-fit.jpg">
+                    <div class="layer">
+                        <h3>High Fit</h3>
+                        <p>Design of a fitness plateform selling programs, modern and appealing design made with Figma.
+                        </p>
+                        <a href="https://www.figma.com/file/RlnfRuqymkPEVAs5qLcDEw/Untitled?node-id=1-2&t=Ch3a59rwwgKRKSCZ-11"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/High-fit-logo.jpg">
+                    <div class="layer">
+                        <h3>High Fit</h3>
+                        <p>Logo made for a fitness company High-Fit, Made with illustrator, custom form and font.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <a href="https://github.com/JoJoDevAdventure?tab=repositories&q=&type=&language=swift&sort=" class="btn">See more</a>
+            <a href="https://github.com/JoJoDevAdventure?tab=repositories&q=&type=&language=swift&sort=" class="btn">See
+                more</a>
         </div>
     </div>
 
+    <!-- -- -- -- -- -- -- -- Testemonial -- -- -- -- -- -- -- -->
+    <div id="testemonial">
+        <h1 class="sub-title">Testemonials</h1>
+
+        <div class="tests">
+            <figure class="snip1533">
+                <figcaption>
+                    <blockquote>
+                        <p>"Youssef did exactly what I've asked for in no time and even added some small tweaks to the images so the work process was flexible, the communication was fast and comfortable, great experience overall!"</p>
+                    </blockquote>
+                    <h3>Vlad Dremov</h3>
+                    <h4>16/02/2023</h4>
+                </figcaption>
+            </figure>
+            <figure class="snip1533">
+                <figcaption>
+                    <blockquote>
+                        <p>"Not only did he take and receive feedback well, he also was incredibly timely and efficient. Highly recommend."</p>
+                    </blockquote>
+                    <h3>Amanda Spon</h3>
+                    <h4>14/06/2022</h4>
+                </figcaption>
+            </figure>
+            <figure class="snip1533">
+                <figcaption>
+                    <blockquote>
+                        <p>"Youssef is really easy to work with and cooperative. highly recommend!"
+                        </p>
+                    </blockquote>
+                    <h3>Robert Foley</h3>
+                    <h4>05/06/2022</h4>
+                </figcaption>
+            </figure>
+            <figure class="snip1533">
+                <figcaption>
+                    <blockquote>
+                        <p>"I am very satisfied with Youssef, he thinks along well, very nice to work with"</p>
+                    </blockquote>
+                    <h3>Marc Nakken</h3>
+                    <h4>16/02/2023</h4>
+                </figcaption>
+            </figure>
+            <figure class="snip1533">
+                <figcaption>
+                    <blockquote>
+                        <p>"Good work! Quick response on my messages. Going to work again wih Joseph."</p>
+                    </blockquote>
+                    <h3>Jules Van Hoef</h3>
+                    <h4>07/08/2022</h4>
+                </figcaption>
+            </figure>
+            <figure class="snip1533">
+                <figcaption>
+                    <blockquote>
+                        <p>"Youssef did great work and he did it fast! Would recommend!"
+                        </p>
+                    </blockquote>
+                    <h3>Timothy</h3>
+                    <h4>05/06/2021</h4>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- -- -- -- -- -- -- -- Contact -- -- -- -- -- -- -- -->
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -283,12 +411,14 @@
                     <p> <i class="fa-solid fa-paper-plane"></i> youssef.b.mac@gmail.com</p>
                     <p> <i class="fa-solid fa-phone"></i> +216 53 291 225</p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/youssef-bouhlel-1a0a30220/">  <i class="fa-brands fa-linkedin"></i> </a>
-                        <a href="https://twitter.com/JoJosDev">  <i class="fa-brands fa-twitter"></i> </a>
-                        <a href="https://www.behance.net/youssefbouhlel1">  <i class="fa-brands fa-behance"></i></a>
-                        <a href="https://github.com/JoJoDevAdventure">  <i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/youssef-bouhlel-1a0a30220/"> <i
+                                class="fa-brands fa-linkedin"></i> </a>
+                        <a href="https://twitter.com/JoJosDev"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="https://www.behance.net/youssefbouhlel1"> <i class="fa-brands fa-behance"></i></a>
+                        <a href="https://github.com/JoJoDevAdventure"> <i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="https://github.com/JoJoDevAdventure/JoJoDevAdventure/files/10444513/Resume-ios_compressed.pdf" class="btn btn2">Download Resume</a>
+                    <a href="https://github.com/JoJoDevAdventure/JoJoDevAdventure/files/10444513/Resume-ios_compressed.pdf"
+                        class="btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -306,7 +436,7 @@
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
-    
+
         function opentab(tabname) {
             for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
@@ -314,60 +444,60 @@
             for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
-    
+
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab")
         }
-    
+
         function onWork(work) {
             var tablinks = document.getElementsByClassName("work-tab-links");
             var workContents = document.getElementsByClassName("work-list");
-    
+
             for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
             for (workContent of workContents) {
                 workContent.classList.remove("active-list");
             }
-    
+
             event.currentTarget.classList.add("active-link");
             document.getElementById(work).classList.add("active-list");
-        }   
-    
+        }
+
     </script>
-    
+
     <script>
-    
+
         var sidemenu = document.getElementById("sidemenu");
-    
+
         function openmenu() {
             sidemenu.style.right = "0";
         }
-    
+
         function closemenu() {
             sidemenu.style.right = "-200px";
         }
-    
+
     </script>
-    
+
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxJxdpLM8sAZkz07feGTBjNHZhalrJ9QyHnkRwboFoYi577VdRWIdn_i0RPLYVYhfkeDQ/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-      
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(() => {
-                    msg.innerHTML = ""
-                }, 5000);
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(() => {
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
+    </script>
 
 </Body>
 
