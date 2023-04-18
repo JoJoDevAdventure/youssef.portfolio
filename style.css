@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #080808;
     color: #ffff;
 }
 
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background-image: url(images/background.jpg);
@@ -75,12 +75,12 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
-.header-text h1 span{
+.header-text h1 span {
     color: #00e8b4;
 }
 
 /* -- -- -- -- -- -- -- -- About -- -- -- -- -- -- -- -- */
-#about{
+#about {
     padding: 80px 0;
     color: #ababab;
 }
@@ -91,16 +91,16 @@ nav ul li a:hover::after {
     flex-wrap: wrap;
 }
 
-.about-col-1{
+.about-col-1 {
     flex-basis: 35%;
 }
 
-.about-col-1 img{
+.about-col-1 img {
     width: 100%;
     border-radius: 15px;
 }
 
-.about-col-2{
+.about-col-2 {
     flex-basis: 60%;
 }
 
@@ -129,22 +129,22 @@ nav ul li a:hover::after {
     height: 3px;
     background: #00e8b4;
     position: absolute;
-    left:0;
+    left: 0;
     bottom: -8px;
     transition: 0.8s;
 }
 
-.tab-links.active-link::after{
+.tab-links.active-link::after {
     width: 70%;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
     list-style: none;
     margin: 20px 0;
     font-size: 14;
 }
 
-.tab-contents ul li span{
+.tab-contents ul li span {
     color: #00e8b4;
     font-size: 18px;
 }
@@ -159,11 +159,11 @@ nav ul li a:hover::after {
 
 /* -- -- -- -- -- -- -- -- Services -- -- -- -- -- -- -- -- */
 
-#services{
+#services {
     padding: 30px 0;
 }
 
-.services-list{
+.services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
@@ -236,12 +236,12 @@ nav ul li a:hover::after {
     height: 3px;
     background: #00e8b4;
     position: absolute;
-    left:0;
+    left: 0;
     bottom: -8px;
     transition: 0.8s;
 }
 
-.work-tab-links.active-link::after{
+.work-tab-links.active-link::after {
     width: 100%;
 }
 
@@ -254,33 +254,33 @@ nav ul li a:hover::after {
 
 .work-list.active-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.work{
+.work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
-.work img{
+.work img {
     width: 100%;
     display: block;
     border-radius: 10px;
     transition: transform 0.5s;
 }
 
-.work:hover img{
+.work:hover img {
     transform: scale(1.2);
 }
 
-.layer{
+.layer {
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #00e8b4);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #00e8b4);
     border-radius: 10px;
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 0;
     overflow: hidden;
     display: flex;
@@ -297,7 +297,7 @@ nav ul li a:hover::after {
     height: 100%;
 }
 
-.layer h3{
+.layer h3 {
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 20px;
@@ -333,16 +333,110 @@ nav ul li a:hover::after {
     background: #05af89;
 }
 
-/* -- -- -- -- -- -- -- -- Contact -- -- -- -- -- -- -- -- */
-#contact{
-padding: 30px;
+/* -- -- -- -- -- -- -- -- Testemonial -- -- -- -- -- -- -- -- */
+#testemonial {
+    padding: 10px 10%;
 }
 
-.contact-left{
+.tests {
+    margin-top: 50px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1533 {
+  box-shadow: 0 0 10px rgba(5, 175, 137, 0.4);
+  color: #fdfcfc;
+  display: inline-flex;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  margin: 35px 10px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #363636;
+  border-radius: 5px;
+  border-top: 5px solid #05af89;
+  transition: background 0.5s;
+}
+
+.snip1533 figcaption {
+  padding: 13% 10% 12%;
+}
+
+.snip1533 figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(5, 175, 137, 0.25);
+  color: #05af89;
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.snip1533 h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.snip1533 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.snip1533 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.snip1533:hover {
+    box-shadow: 0 0 10px rgba(5, 175, 137, 0.25);
+    color: #252525;
+    display: inline-flex;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    margin: 35px 10px 10px;
+    max-width: 310px;
+    min-width: 250px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #14fac8;
+    border-radius: 5px;
+    border-top: 5px solid #f6f9f8;
+}
+
+.snip1533:hover h3{
+    color: #080808;
+}
+/* -- -- -- -- -- -- -- -- Contact -- -- -- -- -- -- -- -- */
+#contact {
+    padding: 30px;
+}
+
+.contact-left {
     flex-basis: 35%;
 }
 
-.contact-right{
+.contact-right {
     flex-basis: 60%;
 }
 
@@ -350,17 +444,17 @@ padding: 30px;
     margin-top: 30px;
 }
 
-.contact-left p i{
+.contact-left p i {
     color: #00e8b4;
     margin-right: 15px;
     font-size: 25px;
 }
 
-.social-icons{
+.social-icons {
     margin-top: 30px;
 }
 
-.social-icons a{
+.social-icons a {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -380,14 +474,15 @@ padding: 30px;
 }
 
 .btn.btn2:hover {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .contact-right form {
     width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
@@ -406,15 +501,16 @@ form .btn.btn2 {
     cursor: pointer;
 }
 
+
 /* -- -- -- -- -- -- -- -- Css for small screen -- -- -- -- -- -- -- -- */
 nav .fas {
     display: none;
 }
 
-@media only screen and (max-width: 910px) { 
+@media only screen and (max-width: 910px) {
     .tab-links {
         font-size: 16px;
-        margin-right:20px ;
+        margin-right: 20px;
     }
 
     .work-tab-titles {
@@ -425,20 +521,21 @@ nav .fas {
 
     .work-list.active-list {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .work-tab-links {
         font-size: 16px;
         width: 100%;
     }
 
-    .contact-left, .contact-right {
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
 }
 
-@media only screen and (max-width: 812px) { 
+@media only screen and (max-width: 812px) {
     nav .fas {
         display: block;
         font-size: 25px;
@@ -470,21 +567,21 @@ nav .fas {
 
     .work-list.active-list {
         display: grid;
-        grid-template-columns: auto; 
+        grid-template-columns: auto;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #header{
+    #header {
         background-image: url(images/phone-background.jpeg);
     }
 
-    .header-text{
+    .header-text {
         margin-top: 100%;
         font-size: 16px;
     }
 
-    .header-text h1{
+    .header-text h1 {
         font-size: 28px;
     }
 
@@ -492,7 +589,8 @@ nav .fas {
         font-size: 40px;
     }
 
-    .about-col-1, .about-col-2 {
+    .about-col-1,
+    .about-col-2 {
         flex-basis: 100%;
     }
 
@@ -506,7 +604,7 @@ nav .fas {
 
     .tab-links {
         font-size: 16px;
-        margin-right:20px ;
+        margin-right: 20px;
     }
 
     .work-tab-titles {
@@ -520,12 +618,13 @@ nav .fas {
         width: 100%;
     }
 
-    .contact-left, .contact-right {
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
 }
 
-#msg{
+#msg {
     color: #61b752;
     margin-top: -30px;
     display: block;
